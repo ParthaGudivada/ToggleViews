@@ -65,7 +65,7 @@ class ToggleViewController: UIViewController
         toggleSwitch = crButton("Hide Label2", view)
         
         viewsDict = ["lbl1" : lbl1, "lbl2" : lbl2, "lbl3" : lbl3, "toggleSwitch" : toggleSwitch!]
-        metricsDict = ["ht1" : 50.0, "ht2" : 75.0, "ht3" : 100.0, "vs" : 40.0, "width" : 150.0]
+        metricsDict = ["ht1" : 40.0, "ht2" : 60.0, "ht3" : 80.0, "vs" : 40.0, "width" : 150.0]
         
         view.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("H:|-[lbl1]-|", options: .allZeros, metrics: metricsDict!, views: viewsDict!))
         view.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("H:|-[lbl2]-|", options: .allZeros, metrics: metricsDict!, views: viewsDict!))
@@ -127,7 +127,7 @@ class ToggleViewController: UIViewController
         }
         
         view.addConstraints(verPosConst!)
-        view.layoutIfNeeded()
+        view.setNeedsLayout()
         
     }
 

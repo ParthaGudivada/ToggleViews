@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E18FCED9-5772-4746-9B09-A2F0F649A729</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ToggleViews</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7B7376FC69DBE90F7014A476A7F211111E77582D</key>
+		<string>https://github.com/pgudivada/ToggleViews.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ToggleViews.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7B7376FC69DBE90F7014A476A7F211111E77582D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/pgudivada/ToggleViews.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7B7376FC69DBE90F7014A476A7F211111E77582D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7B7376FC69DBE90F7014A476A7F211111E77582D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ToggleViews</string>
+		</dict>
+	</array>
+</dict>
+</plist>
