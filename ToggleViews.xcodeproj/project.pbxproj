@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53132CC61A4C54F2008F05CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53132CC51A4C54F2008F05CF /* AppDelegate.swift */; };
+		53132CC81A4C54F2008F05CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53132CC71A4C54F2008F05CF /* Images.xcassets */; };
+		53132CCB1A4C54F2008F05CF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53132CC91A4C54F2008F05CF /* LaunchScreen.xib */; };
+		53132CD71A4C54F2008F05CF /* ToggleViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53132CD61A4C54F2008F05CF /* ToggleViewsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53132CD11A4C54F2008F05CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53132CB81A4C54F2008F05CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53132CBF1A4C54F2008F05CF;
+			remoteInfo = ToggleViews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53132CC01A4C54F2008F05CF /* ToggleViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToggleViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53132CC41A4C54F2008F05CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53132CC51A4C54F2008F05CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53132CC71A4C54F2008F05CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		53132CCA1A4C54F2008F05CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		53132CD01A4C54F2008F05CF /* ToggleViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToggleViewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53132CD51A4C54F2008F05CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53132CD61A4C54F2008F05CF /* ToggleViewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleViewsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53132CBD1A4C54F2008F05CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53132CCD1A4C54F2008F05CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53132CB71A4C54F2008F05CF = {
+			isa = PBXGroup;
+			children = (
+				53132CC21A4C54F2008F05CF /* ToggleViews */,
+				53132CD31A4C54F2008F05CF /* ToggleViewsTests */,
+				53132CC11A4C54F2008F05CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53132CC11A4C54F2008F05CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53132CC01A4C54F2008F05CF /* ToggleViews.app */,
+				53132CD01A4C54F2008F05CF /* ToggleViewsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53132CC21A4C54F2008F05CF /* ToggleViews */ = {
+			isa = PBXGroup;
+			children = (
+				53132CC51A4C54F2008F05CF /* AppDelegate.swift */,
+				53132CC71A4C54F2008F05CF /* Images.xcassets */,
+				53132CC91A4C54F2008F05CF /* LaunchScreen.xib */,
+				53132CC31A4C54F2008F05CF /* Supporting Files */,
+			);
+			path = ToggleViews;
+			sourceTree = "<group>";
+		};
+		53132CC31A4C54F2008F05CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53132CC41A4C54F2008F05CF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53132CD31A4C54F2008F05CF /* ToggleViewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				53132CD61A4C54F2008F05CF /* ToggleViewsTests.swift */,
+				53132CD41A4C54F2008F05CF /* Supporting Files */,
+			);
+			path = ToggleViewsTests;
+			sourceTree = "<group>";
+		};
+		53132CD41A4C54F2008F05CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53132CD51A4C54F2008F05CF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53132CBF1A4C54F2008F05CF /* ToggleViews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53132CDA1A4C54F2008F05CF /* Build configuration list for PBXNativeTarget "ToggleViews" */;
+			buildPhases = (
+				53132CBC1A4C54F2008F05CF /* Sources */,
+				53132CBD1A4C54F2008F05CF /* Frameworks */,
+				53132CBE1A4C54F2008F05CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToggleViews;
+			productName = ToggleViews;
+			productReference = 53132CC01A4C54F2008F05CF /* ToggleViews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53132CCF1A4C54F2008F05CF /* ToggleViewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53132CDD1A4C54F2008F05CF /* Build configuration list for PBXNativeTarget "ToggleViewsTests" */;
+			buildPhases = (
+				53132CCC1A4C54F2008F05CF /* Sources */,
+				53132CCD1A4C54F2008F05CF /* Frameworks */,
+				53132CCE1A4C54F2008F05CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53132CD21A4C54F2008F05CF /* PBXTargetDependency */,
+			);
+			name = ToggleViewsTests;
+			productName = ToggleViewsTests;
+			productReference = 53132CD01A4C54F2008F05CF /* ToggleViewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53132CB81A4C54F2008F05CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = LearnJava;
+				TargetAttributes = {
+					53132CBF1A4C54F2008F05CF = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					53132CCF1A4C54F2008F05CF = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 53132CBF1A4C54F2008F05CF;
+					};
+				};
+			};
+			buildConfigurationList = 53132CBB1A4C54F2008F05CF /* Build configuration list for PBXProject "ToggleViews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53132CB71A4C54F2008F05CF;
+			productRefGroup = 53132CC11A4C54F2008F05CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53132CBF1A4C54F2008F05CF /* ToggleViews */,
+				53132CCF1A4C54F2008F05CF /* ToggleViewsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53132CBE1A4C54F2008F05CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53132CCB1A4C54F2008F05CF /* LaunchScreen.xib in Resources */,
+				53132CC81A4C54F2008F05CF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53132CCE1A4C54F2008F05CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53132CBC1A4C54F2008F05CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53132CC61A4C54F2008F05CF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53132CCC1A4C54F2008F05CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53132CD71A4C54F2008F05CF /* ToggleViewsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53132CD21A4C54F2008F05CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53132CBF1A4C54F2008F05CF /* ToggleViews */;
+			targetProxy = 53132CD11A4C54F2008F05CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53132CC91A4C54F2008F05CF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53132CCA1A4C54F2008F05CF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53132CD81A4C54F2008F05CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53132CD91A4C54F2008F05CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53132CDB1A4C54F2008F05CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ToggleViews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		53132CDC1A4C54F2008F05CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ToggleViews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		53132CDE1A4C54F2008F05CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ToggleViewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToggleViews.app/ToggleViews";
+			};
+			name = Debug;
+		};
+		53132CDF1A4C54F2008F05CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ToggleViewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToggleViews.app/ToggleViews";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53132CBB1A4C54F2008F05CF /* Build configuration list for PBXProject "ToggleViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53132CD81A4C54F2008F05CF /* Debug */,
+				53132CD91A4C54F2008F05CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53132CDA1A4C54F2008F05CF /* Build configuration list for PBXNativeTarget "ToggleViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53132CDB1A4C54F2008F05CF /* Debug */,
+				53132CDC1A4C54F2008F05CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		53132CDD1A4C54F2008F05CF /* Build configuration list for PBXNativeTarget "ToggleViewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53132CDE1A4C54F2008F05CF /* Debug */,
+				53132CDF1A4C54F2008F05CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53132CB81A4C54F2008F05CF /* Project object */;
+}
