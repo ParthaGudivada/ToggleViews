@@ -11,6 +11,7 @@
 		53132CC81A4C54F2008F05CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53132CC71A4C54F2008F05CF /* Images.xcassets */; };
 		53132CCB1A4C54F2008F05CF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53132CC91A4C54F2008F05CF /* LaunchScreen.xib */; };
 		53132CD71A4C54F2008F05CF /* ToggleViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53132CD61A4C54F2008F05CF /* ToggleViewsTests.swift */; };
+		53132CE11A4C5538008F05CF /* ToggleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53132CE01A4C5538008F05CF /* ToggleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 		53132CD01A4C54F2008F05CF /* ToggleViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToggleViewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53132CD51A4C54F2008F05CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53132CD61A4C54F2008F05CF /* ToggleViewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleViewsTests.swift; sourceTree = "<group>"; };
+		53132CE01A4C5538008F05CF /* ToggleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				53132CC71A4C54F2008F05CF /* Images.xcassets */,
 				53132CC91A4C54F2008F05CF /* LaunchScreen.xib */,
 				53132CC31A4C54F2008F05CF /* Supporting Files */,
+				53132CE01A4C5538008F05CF /* ToggleViewController.swift */,
 			);
 			path = ToggleViews;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53132CE11A4C5538008F05CF /* ToggleViewController.swift in Sources */,
 				53132CC61A4C54F2008F05CF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,6 +395,7 @@
 				53132CDC1A4C54F2008F05CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53132CDD1A4C54F2008F05CF /* Build configuration list for PBXNativeTarget "ToggleViewsTests" */ = {
 			isa = XCConfigurationList;
@@ -399,6 +404,7 @@
 				53132CDF1A4C54F2008F05CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
